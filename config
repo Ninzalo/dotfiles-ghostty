@@ -1,0 +1,63 @@
+theme = GruvboxDark
+
+window-padding-x = 20
+window-padding-y = 20
+macos-titlebar-style = hidden
+
+font-family = ""
+font-family = "Hack Nerd Font Mono"
+font-size = 18
+font-feature = -liga
+bold-is-bright = true
+
+macos-option-as-alt = true
+
+keybind = super+q=quit
+keybind = super+n=unbind
+keybind = super+t=unbind
+
+keybind = super+ctrl+shift+alt+f=toggle_fullscreen
+
+# Tmux general
+  # Reload Tmux config
+keybind = super+ctrl+shift+alt+r=text:\x01\x52
+  # Update Tmux plugins
+keybind = super+ctrl+shift+alt+u=text:\x01\x55
+  # Install Tmux plugins
+keybind = super+ctrl+shift+alt+i=text:\x01\x49
+  # Kill session/window/pane
+keybind = super+ctrl+shift+alt+x=text:\x01\x78
+  # Maximize pane
+keybind = super+ctrl+shift+alt+m=text:\x01\x6D
+
+## Sessions
+  # Choose session
+keybind = super+ctrl+shift+alt+s=text:\x01\x73
+  # Detach session
+keybind = super+ctrl+shift+alt+d=text:\x01\x64
+  # New session
+keybind = super+ctrl+shift+alt+n=text:\x01\x61
+  # Rename session
+keybind = super+ctrl+shift+alt+4=text:\x01\x24
+
+## Windows
+  # Close window
+keybind = super+ctrl+shift+alt+w=text:\x01\x26
+  # New window
+keybind = super+ctrl+shift+alt+t=text:\x01\x63
+  # Next window
+keybind = super+ctrl+shift+alt+l=text:\x01\x6E
+  # Previous window
+keybind = super+ctrl+shift+alt+h=text:\x01\x70
+  # Rename window
+keybind = super+ctrl+shift+alt+,=text:\x01\x2C
+
+## Panes
+  # Vertical split
+keybind = super+ctrl+shift+alt+backslash=text:\x01\x25
+  # Horizontal split
+keybind = super+ctrl+shift+alt+-=text:\x01\x2D
+
+# Copy mode
+  # Enter Copy mode
+keybind = super+ctrl+shift+alt+[=text:\x01\x5B
