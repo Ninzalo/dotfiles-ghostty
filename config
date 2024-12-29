@@ -2,7 +2,9 @@ theme = GruvboxDark
 
 window-padding-x = 20
 window-padding-y = 20
+
 macos-titlebar-style = hidden
+confirm-close-surface = false
 
 font-family =
 font-family = "Hack Nerd Font"
